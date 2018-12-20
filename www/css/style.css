@@ -1,0 +1,172 @@
+@font-face {
+  font-family: berthold;
+  src: local(berthold), url('../../lotus/fonts/Berthold Akzidenz Grotesk BE Light Condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: gothic;
+  src: local(gothic), url('../../lotus/fonts/League Gothic.otf') format('opentype');
+}
+
+html {
+  overflow: hidden;
+}
+
+.gothic {
+  font-family: gothic;
+}
+
+.bert {
+  font-family: berthold;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex2 {
+  -webkit-justify-content: ;
+  justify-content: ;
+  -webkit-align-items: ;
+  align-items: ;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.review-header {
+  background-color: #f1f6f7;
+}
+
+.review-order {
+  background-color: #eff7f4;
+}
+
+.detail-margin {
+  margin-bottom: 5%;
+}
+
+.column {
+  -webkit-flex-flow: column;
+  -webkit--webkit-flex-flow: column;
+  -moz--webkit-flex-flow: column;
+  -o--webkit-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+  -moz-flex-flow: column;
+  -o-flex-flow: column;
+}
+
+.base-color {
+  color: rgb( 0, 147, 114 );
+}
+
+.base-color:before {
+  color: #009374;
+}
+
+.dark {
+  background-color: #242a2b;
+}
+
+.neutral-color {
+  color: #5a6364;
+}
+
+.margin-right {
+  margin-right: 2%;
+}
+
+.margin-right2 {
+  margin-right: 3.5%;
+}
+
+.terms p {
+  font-family: berthold;
+  -webkit-margin-after: .5em;
+  margin-after: .5em;
+  -webkit-margin-before: .5em;
+  font-size: 1.25rem;
+  margin-before: .5em;
+}
+
+.product .gothic {
+  font-size: 1.75rem;
+}
+
+.product .bert {
+  margin-top: .25rem;
+  font-size: 1.35rem;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.size {
+  margin-top: .25rem;
+  font-size: 1.35rem;
+}
+
+.gsize {
+  margin-top: .05rem;
+  font-size: 1.15rem;
+}
+
+.order {
+  font-size: 1.6rem;
+}
+
+#app {
+  position: relative;
+  -webkit-position: relative;
+  -moz-position: relative;
+  -o-position: relative;
+  perspective-origin: 50% 50%;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective: 1100px;
+  -webkit-perspective: 1100px;
+  -moz-perspective: 1100px;
+  -o-perspective: 1100px;
+}
+
+.flex-between {
+  flex-flow: ;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-start {
+  flex-flow: ;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-end {
+  flex-flow: ;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: flex;
+}

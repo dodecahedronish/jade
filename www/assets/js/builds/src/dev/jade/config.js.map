@@ -1,0 +1,10 @@
+{"version":3,
+ "file":
+ "/home/galin/Work/platformis/git/Jade/jade-gap/www/assets/js/builds/src/dev/jade/config.js",
+ "sources":["config.cljs?rel=1545283544365"],
+ "lineCount":10,
+ "mappings":
+ ";AAAA;;AAEA,kCAAA,lCAAMA,gEAAqBC,aAAaC;AAAxC,AACE,sBAAA,2CAAA,7DAAMC,0HAA2BC;IAK3BC,aAAW,AAACC,0BAAMJ,OAAOC,gBAAgBF;AAL/C,AAMEI",
+ "names":
+ ["jade.config/add-main-transition", "handed-state", "config",
+  "main-transition", "/6", "init-state", "cljs.core/merge"]}
